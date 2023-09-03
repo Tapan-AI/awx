@@ -1,0 +1,11 @@
+---
+- hosts: 
+  tasks:
+  - name: Add the user 'Adam Listek'
+    ansible.builtin.user:
+      name: adamlis
+      comment: AdamListek
+      uid: 1077
+      group: sudo
+      createhome: yes
+      home: /home/adamlis
