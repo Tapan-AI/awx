@@ -1,5 +1,5 @@
 ---
-- hosts: 
+- hosts: 34.125.16.3
   tasks:
   - name: Add the user 'Adam Listek'
     ansible.builtin.user:
