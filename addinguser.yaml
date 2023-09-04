@@ -3,8 +3,8 @@
   tasks:
   - name: Add the user 'Adam Listek'
     ansible.builtin.user:
-      name: adamlis
+      name: taptest
       comment: AdamListek
-      uid: 1077
+      uid: 1078
       createhome: yes
       home: /home/adamlis
