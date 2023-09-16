@@ -1,10 +1,10 @@
 ---
 - hosts: all
   tasks:
-  - name: Add the user 'Adam Listek'
+  - name: Add the user 'tap'
     ansible.builtin.user:
-      name: testuser2
-      comment: AdamListek
-      uid: 1080
+      name: tap
+      comment: tap
+      uid: 1060
       createhome: yes
-      home: /home/testuser2
+      home: /home/tap
