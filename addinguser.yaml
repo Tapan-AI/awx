@@ -8,4 +8,3 @@
       uid: 1050
       createhome: yes
       home: /home/testuser2
- gcloud compute snapshots create snapshot-1 --project=favorable-mix-398813 --source-disk=swarm-worker2 --source-disk-zone=us-west4-b --storage-location=us    
